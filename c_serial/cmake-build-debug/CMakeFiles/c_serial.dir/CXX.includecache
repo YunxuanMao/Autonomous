@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/myx/Autonomous/c_serial/main.cpp
+string
+-
+iostream
+-
+boost/asio.hpp
+-
+boost/bind.hpp
+-
+
